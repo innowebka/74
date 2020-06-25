@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("herokucdn.com/error-pages/no-such-app.html");
+    return res.end("<iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>");
   });
 
   wss = new WebSocketServer({
