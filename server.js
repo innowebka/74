@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("under construction");
+    return res.end("Welcome to Heroku");
   });
 
   wss = new WebSocketServer({
